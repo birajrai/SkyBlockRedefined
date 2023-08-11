@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>me.birajrai.skyblockredefined</groupId>
+    <artifactId>SkyBlockRedefined</artifactId>
+    <version>2.0.0</version>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api-1_12</artifactId>
+            <version>1.12.2-R0.1-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/spigot-1.12.2.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.onarandombox.MultiverseCore</groupId>
+            <artifactId>MultiverseCore</artifactId>
+            <version>2.5-b699</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/Multiverse-Core-2.5.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>net.milkbowl.vault</groupId>
+            <artifactId>Vault</artifactId>
+            <version>1.7.3-b131</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/Vault.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sk89q.worldedit.bukkit</groupId>
+            <artifactId>WorldEditPlugin</artifactId>
+            <version>6.1;no_git_id</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/worldedit-bukkit-6.1.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sk89q.worldguard.bukkit</groupId>
+            <artifactId>WorldGuardPlugin</artifactId>
+            <version>6.1.3-SNAPSHOT;c904242</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/worldguard-6.2.jar</systemPath>
+        </dependency>
+
+    </dependencies>
+</project>
