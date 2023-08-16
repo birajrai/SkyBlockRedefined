@@ -187,6 +187,7 @@ me\birajrai\skyblockredefined\commands\AdminCmd$9$1.class
 me\birajrai\skyblockredefined\commands\AdminCmd$2.class
 me\birajrai\skyblockredefined\events\AcidRainEvent.class
 me\birajrai\skyblockredefined\AcidTask.class
+me\birajrai\skyblockredefined\Locale.class
 me\birajrai\skyblockredefined\SkyBlockRedefined$2.class
 me\birajrai\skyblockredefined\util\PendingItem.class
 me\birajrai\skyblockredefined\commands\IslandCmd$3.class
@@ -194,7 +195,6 @@ me\birajrai\skyblockredefined\listeners\AcidInventory$1.class
 me\birajrai\skyblockredefined\Updater$1.class
 me\birajrai\skyblockredefined\commands\AdminCmd$1$1.class
 me\birajrai\skyblockredefined\events\ChallengeLevelCompleteEvent.class
-me\birajrai\skyblockredefined\ASLocale.class
 me\birajrai\skyblockredefined\util\teleport\SafeSpotTeleport$1.class
 me\birajrai\skyblockredefined\panels\MiniShopItem.class
 me\birajrai\skyblockredefined\events\IslandDeleteEvent.class
