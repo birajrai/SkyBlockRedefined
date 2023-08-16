@@ -2,15 +2,15 @@
 acidBottle: "Acid Bottle"
 acidBucket: "Acid Bucket"
 acidLore: |
-    Do
-    not drink!
-    Beware!
+  Do
+  not drink!
+  Beware!
 
-adminDeleteIsland: 
+adminDeleteIsland:
   error: "Use &ldeleteisland confirm &r&cto delete the island you are on."
   noid: "Cannot identify island."
   use: "Use &ldelete [name] &r&cto delete the player instead."
-adminHelp: 
+adminHelp:
   add: "adds player to leader's team"
   addrange: "adds to or substracts from the island's protection range"
   clearreset: "resets the island reset limit for player"
@@ -50,7 +50,7 @@ adminHelp:
   tp: "teleport to a player's island"
   tpnether: "teleport to a player's nether island"
   unregister: "deletes a player without deleting the island blocks"
-adminInfo: 
+adminInfo:
   bannedPlayers: "Banned players"
   errorNullTeamLeader: "Team leader should be null!"
   errorTeamMembersExist: "Player has team members, but shouldn't!"
@@ -68,11 +68,11 @@ adminInfo:
   teamMembers: "Team Members"
   title: "This is spawn island"
   unowned: "This island is not owned by anyone right now."
-adminLock: 
+adminLock:
   adminLockedIsland: "Admin locked your island"
   adminUnlockedIsland: "Admin unlocked your island"
   errorInGame: "Must use command in-game while on an island!"
-adminRegister: 
+adminRegister:
   hadIsland: "[name] had an island at [location]"
   leadsTeam: "[name] leads a team. Kick players from it first."
   noIsland: "There is no known island in this area!"
@@ -82,26 +82,26 @@ adminResetChallengeForAll:
   error: "Format for repeat time must is [integer number][m/h/d] (minutes, hours, days), e.g. 5h"
   repeating: "Repeating [duration]"
   reset: "Reset [date]"
-adminResetSign: 
+adminResetSign:
   errorExists: "That warp sign is already active and owned by [name]"
   found: "Warp sign found!"
   noSign: "You must be looking at a sign post to run this command."
   rescued: "Warp sign rescued and assigned to [name]"
 adminReserve:
   islandExists: "There is an island here already! Register the player instead!"
-adminSetHome: 
+adminSetHome:
   homeSet: "Home set to [location]"
   noneFound: "No safe location found!"
   notOnPlayersIsland: "You are not on the player's island"
   notSafe: "That location is not safe"
-adminSetRange: 
+adminSetRange:
   invalid: "Invalid range!"
   set: "Set new range to [number]"
   tip: "Range must be between 10 to [max]"
   updated: "Island range updated to [number]"
   warning: "Warning - range is greater than island range [max]"
   warning2: "Overlapped islands will act like spawn!"
-adminSetSpawn: 
+adminSetSpawn:
   center: "Island center [location]"
   coords: "Protection coords [min] to [max]"
   limits: "Island limits [min] to [max]"
@@ -115,7 +115,7 @@ adminSwitch:
   op: "Ops can always bypass protection. Deop to use command."
   adding: "Adding protection bypass..."
   removing: "Removing protection bypass..."
-adminTeam: 
+adminTeam:
   addLeaderNoIsland: "Team leader does not have their own island so cannot have a team!"
   addLeaderToOwn: "Cannot add a leader to their own team."
   addedLeader: "Added the leader to this team!"
@@ -124,19 +124,19 @@ adminTeam:
   kickLeader: "That player is a team leader. Remove team members first. Use '/[label] info [name]' to find team members."
   nowUnowned: "[name] had an island at [location] that will become unowned now. You may want to delete it manually."
   settingHome: "Setting player's home to the leader's home location"
-adminTopBreeders: 
+adminTopBreeders:
   checking: "Checking [number] islands..."
   finding: "Finding top breeders..."
   nothing: "No creatures found."
-adminTopTen: 
+adminTopTen:
   finished: "Finished generation of the Top Ten list"
   generating: "Generating the Top Ten list"
-adminTp: 
+adminTp:
   manualWarp: "No safe spot found. Manually warp to somewhere near [location]."
-adminUnregister: 
+adminUnregister:
   keepBlocks: "Removing player from world, but keeping island at [location]"
   onTeam: "Player is in a team - disband it first."
-ban: 
+ban:
   alreadybanned: "[name] is already banned!"
   banned: "You are banned from [name]'s island!"
   fail: "[name] cannot be banned!"
@@ -150,16 +150,16 @@ ban:
   notteammember: "You cannot ban a team member!"
   notyourself: "You cannot do that to yourself!"
   success: "[name] is banned from the island!"
-biome: 
+biome:
   help: "open the biomes GUI."
   paneltitle: "Select A Biome"
   pleasewait: "Please wait, changing biome..."
   set: "Island biome set to [biome]!"
   unknown: "Unknown biome!"
   youbought: "Purchased for [cost]!"
-boats: 
+boats:
   warning: "It's unsafe to exit the boat right now..."
-challenges: 
+challenges:
   colors: "Challenges will have different colors depending on if they are:"
   complete: "Complete"
   completeNotRepeatable: "Completed(not repeatable)"
@@ -196,15 +196,15 @@ challenges:
   youHaveNotUnlocked: "You have not unlocked this challenge yet!"
   youRepeated: "You repeated the [challenge] challenge!"
 changingObsidiantoLava: "Changing obsidian back into lava. Be careful!"
-checkteam: 
+checkteam:
   checkingTeam: "Checking Team of [name]"
-completechallenge: 
+completechallenge:
   challangeCompleted: "Challenge: [challengename] has been completed for [name]"
   errorChallengeDoesNotExist: "Challenge doesn't exist or is already completed"
-confirm: 
+confirm:
   errorTimeLimitExpired: "Time limit expired! Issue command again."
 coop:
-  cannotcoop: "Only island leader can coop a player." 
+  cannotcoop: "Only island leader can coop a player."
   help: "give a player full access to your island"
   invited: "[name] made [player] a coop player!"
   nameHasInvitedYou: "[name] has invited you to coop on their island!"
@@ -217,11 +217,11 @@ coop:
   success: "[name] is now a coop player until you log out, uncoop or expel him."
   uncoop: "remove full island access from player"
   useexpel: "Use expel or uncoop to remove."
-deaths: 
+deaths:
   deaths: "Deaths"
   died: "died!"
   leveldeaths: "&c[[number] deaths]"
-delete: 
+delete:
   removing: "Removing [name]'s island."
 drankAcid: "drank acid."
 drankAcidAndDied: "just drank acid and died."
@@ -243,7 +243,7 @@ error:
   useInGame: "This command must be used in-game."
   wrongWorld: "You cannot do that in this world."
   minishopDisabled: "Minishop is disabled."
-expel: 
+expel:
   expelled: "You were expelled from that island!"
   fail: "[name] cannot be expelled!"
   notonisland: "Player is not trespassing on your island!"
@@ -251,7 +251,7 @@ expel:
   success: "You expelled [name]!"
 general:
   success: "Success!"
-invite: 
+invite:
   errorCantJoinIsland: "You couldn't join the island, maybe it's full."
   errorCoolDown: "You can invite that player again in [time] minutes"
   errorThatPlayerIsAlreadyInATeam: "That player is already in a team."
@@ -269,9 +269,9 @@ invite:
   youCanInvite: "You can invite [number] more players."
   youCannotInvite: "You can't invite any more players."
   youHaveJoinedAnIsland: "You have joined an island! Use /[label] team to see the other members."
-island: 
+island:
   blockValue: "[name] placed here may be worth [value]"
-  blockWorthless: "[name] is worthless" 
+  blockWorthless: "[name] is worthless"
   cannotTeleport: "You cannot teleport when falling!"
   donate: "Welcome to SkyBlock"
   donatecolor: "aqua"
@@ -319,15 +319,15 @@ island:
   resetTo: "Cleared reset limit"
   resetWait: "You have to wait [time] seconds before you can do that again."
   resetYouHave: "You have [number] resets left."
-  subtitle: ""
-  subtitlecolor: "blue"
-  teleport: "Teleporting you to your island. (/[label] help for more info)"
   title: "SkyBlock"
   titlecolor: "gold"
+  subtitle: "Welcome to your island!"
+  subtitlecolor: "blue"
+  teleport: "Teleporting you to your island."
   unlimited: "Unlimited"
-  url: ""
+  url: "https://birajrai.github.io/skyblockredefined"
 islandProtected: "Island protected."
-islandguardsettings: 
+islandguardsettings:
   TNTdamage: "TNT Damage"
   allowed: "Allowed"
   aciddamage: "Acid damage"
@@ -391,7 +391,7 @@ islandguardsettings:
   visitorpickup: "Visitor item pick-up"
   withergriefing: "Wither griefing"
   workbench: "Visitor workbench use"
-kick: 
+kick:
   errorNoTeam: "You do not have a team!"
   errorNotPartOfTeam: "That player is not part of your island team!"
   errorOnlyLeaderCan: "Only the leader can kick people off the island!"
@@ -399,20 +399,20 @@ kick:
   nameRemoved: "[name] has been removed from the island."
   nameRemovedYou: "[name] has removed you from their island!"
 lavaTip: "Tip: If obsidian was not intended, it can be scooped back up again with a bucket."
-leave: 
+leave:
   canceled: "Leave canceled"
   errorLeadersCannotLeave: "Leaders cannot leave an island. Make someone else the leader first."
   errorYouAreTheLeader: "You cannot leave because you are the leader. Make someone the leader first."
-  errorYouCannotLeaveIsland: "You can't leave your island if you are the only person. Try restart if you want a new one!"
+  errorYouCannotLeaveIsland: "You can't leave your island. Try resetting your island if you want a new one!"
   errorYouMustBeInWorld: "You must be in the island world to leave your team!"
   nameHasLeftYourIsland: "[name] has left your island!"
   warning: "Are you sure you want to leave the team? Type '[label] leave' again to confirm."
   youHaveLeftTheIsland: "You have left the island and returned to the player spawn."
-level: 
+level:
   calculating: "Calculating island level. This will take a few seconds..."
   errornotYourIsland: "Only the leader can do that."
   islandLevel: "Island level"
-lock: 
+lock:
   enteringspawn: "Entering Spawn"
   islandlocked: "Island is locked to visitors"
   leavingspawn: "Leaving Spawn"
@@ -420,7 +420,7 @@ lock:
   nowentering: "Now entering [name]'s island"
   nowleaving: "Now leaving [name]'s island"
   unlocking: "Unlocking island"
-makeleader: 
+makeleader:
   errorGeneralError: "Could not change leaders."
   errorNotYourIsland: "This isn't your island, so you can't give it away!"
   errorPlayerMustBeOnline: "That player must be online to transfer the island."
@@ -429,7 +429,7 @@ makeleader:
   errorYouMustBeInTeam: "You must be in a team to transfer your island."
   nameIsNowTheOwner: "[name] is now the owner of your island!"
   youAreNowTheOwner: "You are now the owner of your island."
-minishop: 
+minishop:
   buy: "Buy(Left click)"
   buyproblem: "There was a problem purchasing [description]"
   islandhelpMiniShop: "Opens the MiniShop"
@@ -440,16 +440,16 @@ minishop:
   youbought: "You bought [number] [description] for [price]"
   youcannotafford: "You cannot afford [description]!"
   yousold: "You sold [number] [description] for [price]"
-moblimits: 
+moblimits:
   entity: "Island [entity] limit of [number] reached!"
   error: "Island animal breeding limit of [number] reached!"
   hopper: "Island hopper limit of [number] reached!"
   villager: "Island villager breeding limit of [number] reached!"
-nether: 
+nether:
   spawnisprotected: "The Nether spawn area is protected."
-news: 
+news:
   headline: "[Skyblock News] While you were offline..."
-purge: 
+purge:
   acidFound: "There are [number] unowned islands. Do '/acid purge unowned confirm' to delete them within 20 seconds."
   allowPurge: "Purge protection removed"
   alreadyRunning: "Purge is already running, please wait for it to finish!"
@@ -470,44 +470,44 @@ purge:
   typeConfirm: "Type /[label] confirm to proceed within 10 seconds"
   usage: "Usage: /[label] purge [TimeInDays]"
   warning: "DANGER! Do not run this with players on the server! MAKE BACKUP OF WORLD!"
-register: 
+register:
   errorBedrockNotFound: "Could not register the island!"
   settingIsland: "Set [name]'s island to the nearest island."
-reject: 
+reject:
   nameHasRejectedInvite: "[name] has rejected your island invite!"
   youHaveNotBeenInvited: "You had not been invited to join a team."
   youHaveRejectedInvitation: "You have rejected the invitation to join an island."
-reload: 
+reload:
   configReloaded: "Configuration reloaded from file."
-resetallchallenges: 
+resetallchallenges:
   success: "[name] has had all challenges reset."
-resetchallenge: 
+resetchallenge:
   challengeReset: "Challenge: [challengename] has been reset for [name]"
   errorChallengeDoesNotExist: "Challenge doesn't exist or isn't yet completed"
-schematics: 
+schematics:
   title: "Select island..."
-sethome: 
+sethome:
   errorNoIsland: "You are not part of an island. Returning you the spawn area!"
   errorNotOnIsland: "You must be within your island boundaries to set home!"
   errorNumHomes: "Homes can be 1 to [max]"
-  homeSet: "Your island home has been set to your current location."
+  homeSet: "Island spawn has been set to your current location."
 settingsReset:
   done: "Done."
   inprogress: "Protection settings being reset, please wait..."
-sign: 
+sign:
   line1: "&1[Skyblock]"
   line2: "[player]"
   line3: "Do not fall!"
   line4: "Beware!"
 sign-acidisland:
-   line1: "&1[AcidIsland]"
-   line2: "[player]"
-   line3: "Water is acid!"
-   line4: "Beware!"
+  line1: "&1[AcidIsland]"
+  line2: "[player]"
+  line3: "Water is acid!"
+  line4: "Beware!"
 targetInPVPArea: "Target is in a no-PVP area!"
-team: 
+team:
   listingMembers: "Listing your island members"
-teamchat: 
+teamchat:
   helpChat: "turn on/off team chat"
   noTeam: "You are not in a team!"
   noTeamAround: "None of your team are online!"
@@ -524,7 +524,7 @@ topTen:
   header: "These are the Top 10 islands:"
 visitors:
   protected: "Visitors protected"
-warps: 
+warps:
   deactivate: "Deactivating old sign!"
   errorDoesNotExist: "That warp doesn't exist!"
   errorDuplicate: "Sorry! There is a sign already in that location!"
